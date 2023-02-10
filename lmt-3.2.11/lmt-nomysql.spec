@@ -1,6 +1,6 @@
 Name: lmt
 Version: 3.2.11
-Release: 1%{?dist}
+Release: 1%{?dist}.ldisk
 License: GPL
 Group: Applications/System
 Summary: Lustre Montitoring Tool
