@@ -35,5 +35,9 @@ killall cerebrod
 
 ## change log
 
+### 2023-02-10 17:00
+1、处理新安装后显示不正确的问题
+2、把zfs的包和ldiskfs的包区分名称处理
+3、分支分开了，两个分支处理代码，main负责发布下载
 ### 2023-02-10 10:29
 缺少依赖包perl-Date-Manip，放入到release包当中
