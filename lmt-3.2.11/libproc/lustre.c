@@ -71,7 +71,7 @@
 #define PROC_FS_LUSTRE_MDT_EXPORTS      "%s/%s/exports"
 #define PROC_FS_LUSTRE_MDT_EXPORT_STATS "%s/%s/exports/%s/stats"
 
-#define PROC_FS_LUSTRE_OST_BRW_STATS    "fs/lustre/osd-zfs/%s/brw_stats"
+#define PROC_FS_LUSTRE_OST_BRW_STATS    "fs/lustre/osd-ldiskfs/%s/brw_stats"
 
 #define PROC_FS_LUSTRE_OST_RECOVERY_STATUS \
                                         "fs/lustre/obdfilter/%s/recovery_status"

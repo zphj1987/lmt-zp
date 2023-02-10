@@ -1229,11 +1229,11 @@ _update_display_ost (WINDOW *win, int line, void *target, int stale_secs,
         mvwprintw (win, line, 0, "%4.4s %1.1s data is stale",
                    o->common.name, o->common.tgtstate);
     /* ost is in recovery - display recovery stats */
-    } else if (strncmp (o->common.recov_status, "COMPLETE", 8) != 0) {
-        mvwprintw (win, line, 0, "%4.4s %1.1s %10.10s   %s",
-                   o->common.name, o->common.tgtstate,
-                   _ltrunc (o->common.servername, 10),
-                   o->common.recov_status);
+/*    } else if (strncmp (o->common.recov_status, "COMPLETE", 8) != 0) {  */
+/*       mvwprintw (win, line, 0, "%4.4s %1.1s %10.10s   %s", */
+/*                   o->common.name, o->common.tgtstate, */
+/*                   _ltrunc (o->common.servername, 10), */
+/*                   o->common.recov_status);  */
     /* ost is not in running (state == COMPLETE) */
     } else {
         mvwprintw (win, line, 0, "%4.4s %1.1s %10.10s"
