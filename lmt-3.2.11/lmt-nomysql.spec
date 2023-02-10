@@ -1,6 +1,6 @@
 Name: lmt
 Version: 3.2.11
-Release: 1%{?dist}zfs
+Release: 1%{?dist}.zfs
 License: GPL
 Group: Applications/System
 Summary: Lustre Montitoring Tool
