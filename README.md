@@ -32,3 +32,8 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/cerebrod.servic
 ```bash
 killall cerebrod
 ```
+
+## change log
+
+### 2023-02-10 10:29
+缺少依赖包perl-Date-Manip，放入到release包当中
