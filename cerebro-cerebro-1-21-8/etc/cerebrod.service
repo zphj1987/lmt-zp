@@ -4,8 +4,10 @@ After=syslog.target network.target
                                       
 [Service]                            
 Type=forking                         
+PIDFile=/run/cerebrod.pid
 ExecStart=/usr/sbin/cerebrod         
 ExecReload=/bin/kill -HUP $MAINPID   
+ExecStartPost=/bin/sh -c '/usr/sbin/pidof cerebrod > /run/cerebrod.pid'
 KillMode=process                     
 User=root
 Group=root
